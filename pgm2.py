@@ -1,0 +1,1 @@
+print("My name is Anjitha M M from calicut.I'm graduated in B-Tech in CSE from Government Engineering College Wayanad")
