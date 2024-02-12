@@ -13,7 +13,7 @@ def amstrong(number):
     res=True if sum==og_num else False
     return res
 
-print(amstrong("number"))
+print(amstrong("153"))
 
 
 

@@ -1,14 +1,11 @@
 # class "string" methods
 company="LUMINAR"
-# print(company.casefold()) #converts to lower
+print(company.casefold()) #converts to lower
 print(company.lower()) #converts to lower
 # casefold advanced than lower
 
 name="anjitha"
 print(name.capitalize())# converts to first letter to capital
-
-
-
 name2="luminar"
 print(name2.upper()) # converts to upper
 

@@ -1,4 +1,4 @@
-class Bank():
+class Bank:
     ac_num:int
     name:str
     ac_type:str

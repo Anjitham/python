@@ -19,3 +19,13 @@ text="good evening all"
 words=text.split(" ")
 srt_words=sorted(words,key=lambda w:len(w),reverse=True)
 print(srt_words)
+
+
+# python doesnot support function overloading-->same name for many functions
+# * accept many no of parameter,
+def product(*args):
+    print(args)
+# args--->accept as tuple 
+
+#  *-->args-->tuple
+#  **-->kwargs-->dictionary

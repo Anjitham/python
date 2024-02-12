@@ -28,5 +28,5 @@ for k,v in product.items():
 # product["name"]="oranges"
 # print(product)
 
-# product.pop("code")
-# print(product)
+product.pop("code")
+print(product)

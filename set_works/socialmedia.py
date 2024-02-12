@@ -1,4 +1,5 @@
 ig_users={"mohanlal","prithvi","dq","vijay","fahad","sureshgopi","lalu"}
+# print(type(ig_users))
 
 mohanlal_following={"prithvi","vijay","lalu"}
 dq_friends={"prithvi","fahad","sureshgopi","lalu"}

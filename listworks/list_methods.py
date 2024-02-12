@@ -7,7 +7,10 @@ orders=["friedrice","gheeroast","vb","cb","bb","vb","cb","vb","cb"] #list suppor
         #  -8           -7         -6   -5  -4  -3     -2   -1  -1
 
 orders.append("tea")              #to add objects
-# print(orders)
+print(orders)
+
+orders.insert(1,"chilligobi")      #insert obj @ index position 1
+print(orders)
 
 print(orders.count("vb"))         #to count no of occurances
 
@@ -15,9 +18,6 @@ print(orders.index("gheeroast"))  #to know the index of object
 
 print(orders.pop())               #to remove last obj
 print(orders.pop(1))               
-print(orders)
-
-orders.insert(1,"chilligobi")      #insert obj @ index position 1
 print(orders)
 
 orders.remove("vb")                #remove object at the first occurance

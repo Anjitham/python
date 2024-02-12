@@ -1,5 +1,7 @@
 text="pneumonoultramicroscopicsilicovolcanoconiosis"
 
+count=0
 print(len(text))
 for ch in text:
-    print(ch)
+    # print(ch)
+    count+=1

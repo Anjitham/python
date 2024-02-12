@@ -7,7 +7,7 @@ expenses=[12000,13000,22000,23000,25000,32000,23000]
 # #     print(expenses[i])
 
 # for i in range(0,len(expenses)):
-#     if expenses[i]>15000:
+#     if expenses[i]>15000: 
 #         print(expenses[i])
 
 # for i in range(0,len(expenses)):
