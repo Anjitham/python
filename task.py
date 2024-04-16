@@ -1,26 +1,26 @@
-lst1=["a","b","c"]
-lst2=["d","e","f","g","h"]
-new=" "
+# lst1=["a","b","c"]
+# lst2=["d","e","f","g","h"]
+# new=" "
 
-for i in  range(len(lst1)):
-    ith=lst1[i]
-    jth=lst2[i]
-    new+=ith+jth
-for k in range(3,len(lst2)):
-    kth=lst2[k]
-    new+=kth
-print(new)
+# for i in  range(len(lst1)):
+#     ith=lst1[i]
+#     jth=lst2[i]
+#     new+=ith+jth
+# for k in range(3,len(lst2)):
+#     kth=lst2[k]
+#     new+=kth
+# print(new)
 
 
-str1="ABC"
-str2="PQR"
+# str1="ABC"
+# str2="PQR"
 
-res=" "
-for i in range(len(str1)):
-    out=str1[i]+str2[i]
-    res+=out
+# res=" "
+# for i in range(len(str1)):
+#     out=str1[i]+str2[i]
+#     res+=out
 
-print(res)
+# print(res)
 
 
 string1=input("Enter a string:")

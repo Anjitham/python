@@ -1,5 +1,5 @@
 # slicing
-name="TECHNOLAB"
+name="TLUMINAR"
 
 # #------ Positive indexing
 # # [start:stop:step],step can be upto -1

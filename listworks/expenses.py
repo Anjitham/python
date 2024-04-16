@@ -1,5 +1,7 @@
 expenses=[12000,13000,22000,23000,25000,32000,23000]
 
+# ex=[exp for exp in expenses if exp>=25000]
+# print(sum(ex))
 
 # for exp in expenses: # print each line by line
 #     print(exp)

@@ -1,5 +1,5 @@
-# num=123.456789
-# print(round(num,2))
+num=123.456789
+print(round(num,2))
 
 
 # ----map()
@@ -24,6 +24,6 @@ numbers=[5,6,7,8,9,10]
 odds=list(filter(lambda num:num%2!=0 ,numbers))
 print(odds)
 
-nmaes=["python","pylance","pytz","django","rest","angular"]
-name_filter=list(filter(lambda w:w.startswith("py"),nmaes))
+names=["python","pylance","pytz","django","rest","angular"]
+name_filter=list(filter(lambda w:w.startswith("py"),names))
 print(name_filter)

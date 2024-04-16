@@ -10,3 +10,4 @@ print(type(name))
 print(type(is_vaccinated))
 print(type(total))
 
+

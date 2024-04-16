@@ -1,3 +1,3 @@
 text="pneumonoultramicroscopicsilicovolcanoconiosis"
 
-print(text.index("p"))
+print(text.index("l"))

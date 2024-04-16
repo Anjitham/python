@@ -1,4 +1,4 @@
-f=open("C:\\Users\\User\\Desktop\\Python works\\FileIO\\data2.txt","r")
+f=open("C:\\Users\\HP\\Desktop\\Py-Dj\\Python works\\FileIO\\data2.txt","r")
 
 wc={}
 for line in f:

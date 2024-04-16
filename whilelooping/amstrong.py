@@ -2,7 +2,7 @@ number=input("Enter a number:")  # length of integer can't be taken
 dig_count=len(number)
 number=int(number)
 sum=0
-num=number
+# num=number
 
 while(number!=0):
     digit=number%10
@@ -10,7 +10,7 @@ while(number!=0):
     sum+=exp
     number=number//10
 print(sum)
-print(f"{num}" is "Amstrong" if num==sum else "Not amstrong") 
+# print(f"{num}"  " is Amstrong" if num==sum else " is Not amstrong") 
 
 
 # num=153

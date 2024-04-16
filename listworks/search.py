@@ -7,6 +7,7 @@
 #     curnt_elemnt=lst[i]
 #     if curnt_elemnt==element:
 #         is_present=True
+#         # print(lst.index(element))
 #         break
 #     i+=1
 # print(is_present)

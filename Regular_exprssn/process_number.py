@@ -1,6 +1,7 @@
 from re import*
 
-f=open("C:\\Users\\User\\Desktop\\Python works\\Regular_exprssn\\numbers.txt")
+# f=open("C:\\Users\\User\\Desktop\\Python works\\Regular_exprssn\\numbers.txt")
+f=open("C:\\Users\\HP\\Desktop\\Py-Dj\\Python works\\Regular_exprssn\\numbers.txt")
 
 rule="([+]91)?[0-9]{10}"
 

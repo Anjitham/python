@@ -1,5 +1,5 @@
 from re import*
-f=open("C:\\Users\\User\\Desktop\\Python works\\Regular_exprssn\\train.txt","r")
+f=open("C:\\Users\\HP\\Desktop\\Py-Dj\\Python works\\Regular_exprssn\\train.txt","r")
 
 rule="[1][0-9]{4}"
 # for line in  f:

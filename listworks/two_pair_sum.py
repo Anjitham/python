@@ -8,6 +8,8 @@
 #             print(arr[i],arr[j])
 #             break
 
+
+
 # OR 
 arr=[3,4,5,2,6]
 sum=int(input("enter a value for sum:"))

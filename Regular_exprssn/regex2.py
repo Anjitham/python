@@ -3,8 +3,8 @@ from re import *
 text="kaBczabc9@7c"
 pattern="[^a-zA-Z0-9]" 
 
-text="ab Cak7@#*"
-pattern="\\d" #[0-9]
+# text="ab Cak7@#*"
+# pattern="\\d" #[0-9]
 
 # "[ac]"-------------------- a or c
 # "[a-z]" ------------------ all lower case a to z

@@ -3,6 +3,7 @@ company="LUMINAR"
 print(company.casefold()) #converts to lower
 print(company.lower()) #converts to lower
 # casefold advanced than lower
+print(company.swapcase()) #convert lower to upper and vice versa
 
 name="anjitha"
 print(name.capitalize())# converts to first letter to capital
@@ -21,7 +22,7 @@ print(company.isalnum()) #check number and alphabets
 name2="hoAnjithaho"
 print(name2.strip("ho")) #removes ho from both sides
 
-name2="hoAnjithho"
+name2="hoAnjithaho"
 print(name2.rstrip("ho")) # removes from right
 
 name2="hoAnjithaho"

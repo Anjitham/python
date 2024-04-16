@@ -21,7 +21,7 @@ text="ABCABBDE"
 #     if(v==1):
 #         print(k)
    
-# second recursive charachter
+# second recursive character
 cc={}
 dup_chara=[]
 for ch in text:

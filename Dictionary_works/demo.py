@@ -12,21 +12,21 @@ product={"code":1001,"name":"Orange","price":35}
 # for v in product.values():
 #     print(v)
 
-for k,v in product.items():
-    print(k,v)
+# for k,v in product.items():
+#     print(k,v)
 
-# print(product.get("code"))
+print(product.get("code"))
 # print("here")
 
-# product["price"]=75
-# print(product)
-# # or
-# product.update({"code":1})
-# print(product)
+product["price"]=75
+print(product)
+# or/ add new dictionary
+product.update({"code":1})
+print(product)
 
-# product.update({"name":"oranges"})
-# product["name"]="oranges"
-# print(product)
-
+product.update({"name":"oranges"})
+product["name"]="oranges"
+print(product)
+ 
 product.pop("code")
 print(product)

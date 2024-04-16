@@ -20,7 +20,7 @@ class Student(User):
         super().__init__(name, age, gender)
         self.rollno=rollno
         self.course=course
-
+    
     # def __str__(self):
     #     return self.name
     

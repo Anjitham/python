@@ -10,3 +10,5 @@ class Calculator:
 
 op=Calculator()
 print(op.add(1,2,3,4))
+
+# no method overloading in python

@@ -1,5 +1,6 @@
 num=123
 sum=0
+# print(type(num))
 
 while(num!=0):
     last_dig=num%10

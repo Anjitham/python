@@ -1,6 +1,6 @@
 from re import*
 
-f=open("C:\\Users\\User\\Desktop\\Python works\\Regular_exprssn\\vehicle_numbers.txt","r")
+f=open("C:\\Users\\HP\\Desktop\\Py-Dj\\Python works\\Regular_exprssn\\vehicle_numbers.txt","r")
 
 rule="(KL|TN)-[0-9]{2}-[A-Z]{1,2}-[0-9]{4}"
 

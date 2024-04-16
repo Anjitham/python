@@ -7,7 +7,8 @@ print("salary" in employee)
 
 
 if "salary" not in employee:
-    employee["salary"]=45000
+    # employee["salary"]=45000
+    employee.update({"salary":45000})
 else:
     employee["salary"]+=10000
 print(employee)

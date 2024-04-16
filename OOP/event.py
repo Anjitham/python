@@ -17,7 +17,7 @@ events=[
 # u=>update
 # d =>delete
 
-event_data= {"id":8,"name":"onamcele","client":"anandhu","date":"12-12-2024","place":"ekm","budget":800000}
+# event_data= {"id":8,"name":"onamcele","client":"anandhu","date":"12-12-2024","place":"ekm","budget":800000}
 
 # create
 # events.append(event_data)
@@ -33,16 +33,16 @@ event_data= {"id":8,"name":"onamcele","client":"anandhu","date":"12-12-2024","pl
 # update
 # id=1,budget=100000
 
-# id=1
-# event_1=[e for e in events if e.get("id")==id][0]
-# # print(event_1)
-# event_1.update({"budget":100000,"place":"calicut"})
-# print(events)
-
-
-
-id=5
-del_eve=[e for e in events if e.get("id")==id][0]
-events.remove(del_eve)
+id=1
+event_1=[e for e in events if e.get("id")==id][0]
+# print(event_1)
+event_1.update({"budget":100000,"place":"calicut"})
 print(events)
+
+
+
+# id=5
+# del_eve=[e for e in events if e.get("id")==id][0]
+# events.remove(del_eve)
+# print(events)
 

@@ -55,7 +55,7 @@ print(j_name)
 skill_cnt={}
 for stud in students:
     skills=stud.get("skills")
-    # print(skills)
+    print(skills)
     for sk in skills:
         if sk in skill_cnt:
             skill_cnt[sk]+=1

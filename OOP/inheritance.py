@@ -34,20 +34,20 @@
 # ch.m1()
 
 ## multiple level inheritance
-class P1:
-    def m1(self):
-        print("Inside P1")
+# class P1:
+#     def m1(self):
+#         print("Inside P1")
 
-class P2:
-    def m2(self):
-        print("inside P2")
+# class P2:
+#     def m2(self):
+#         print("inside P2")
 
-class child(P1,P2):
-    pass
+# class child(P1,P2):
+#     pass
 
-ch=child()
-ch.m1()
-ch.m2()
+# ch=child()
+# ch.m1()
+# ch.m2()
 
 ## multiple level inheritance---order of inheritance
 class P1:
