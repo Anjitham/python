@@ -8,19 +8,19 @@ name="TLUMINAR"
 # print(name[2:]) #start=2,stop=length of string
 
 # ------Negative indexing
-print(name[-1:-4:-1])
-print(name[:-5:-1]) #BALO
+# print(name[-1:-4:-1])
+# print(name[:-5:-1]) #BALO RANI
 
-rev=name[::-1]
-print(rev)
+# rev=name[::-1]
+# print(rev)
 
-# palindrome
+# # palindrome
 
-word="madam"
-rev_word=word[::-1]
-print("palindrome" if word==rev_word else "not palindrome")
+# word="madam"
+# rev_word=word[::-1]
+# print("palindrome" if word==rev_word else "not palindrome")
 
-# slicing @ particular length
+# # slicing @ particular length
 
 str1="Haii"
 str2="Goodmorning"

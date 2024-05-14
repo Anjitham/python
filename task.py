@@ -1,15 +1,16 @@
-# lst1=["a","b","c"]
-# lst2=["d","e","f","g","h"]
-# new=" "
+lst1=["a","b","c"]
+lst2=["d","e","f","g","h"]
+new=" "
 
-# for i in  range(len(lst1)):
-#     ith=lst1[i]
-#     jth=lst2[i]
-#     new+=ith+jth
-# for k in range(3,len(lst2)):
-#     kth=lst2[k]
-#     new+=kth
-# print(new)
+for i in range(len(lst1)):
+    ith=lst1[i]
+    jth=lst2[i]
+    
+    new+=ith+jth
+for k in range(3,len(lst2)):
+    kth=lst2[k]
+    new+=kth
+print(new)
 
 
 # str1="ABC"
@@ -23,21 +24,21 @@
 # print(res)
 
 
-string1=input("Enter a string:")
-string2=input("Enter a string:")
+# string1=input("Enter a string:")
+# string2=input("Enter a string:")
 
-small_len=min(len(string1),len(string2))
+# small_len=min(len(string1),len(string2))
 
-result=" "
+# result=" "
 
-for i in range(0,small_len):
-    out=string1[i]+string2[i]
-    result+=out
+# for i in range(0,small_len):
+#     out=string1[i]+string2[i]
+#     result+=out
 
-if len(string1)>len(string2):
-    rem=string1[small_len:]
-else:
-    rem=string2[small_len:]
+# if len(string1)>len(string2):
+#     rem=string1[small_len:]
+# else:
+#     rem=string2[small_len:]
 
-result+=rem
-print(result)
+# result+=rem
+# print(result)

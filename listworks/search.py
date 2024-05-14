@@ -1,3 +1,4 @@
+
 # LINEAR SEARCH
 # lst=[10,2,11,5,7,20]
 # element=int(input("Enter an element:"))

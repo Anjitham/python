@@ -9,11 +9,11 @@ lst=[2,4,5,6,7,8,9]
 # sq=[i**2 for i in lst]
 # print(sq)
 
-# # list of even numbers
-# even=[]
-# for num in lst:
-#     if num%2==0:
-#         even.append(num)
+# list of even numbers
+# even=[num for num in lst if num%2==0]
+# # for num in lst:
+# #     if num%2==0:
+# #         even.append(num)
 # print(even)
 
 # # LIST COMPREHENSION

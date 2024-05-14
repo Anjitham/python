@@ -12,9 +12,9 @@ expenses=[12000,13000,22000,23000,25000,32000,23000]
 #     if expenses[i]>15000: 
 #         print(expenses[i])
 
-# for i in range(0,len(expenses)):
-#     if expenses[i] in range (15000,25000):
-#         print(expenses[i])
+for i in range(0,len(expenses)):
+    if expenses[i] in range (15000,25000):
+        print(expenses[i])
 
 max_exp=max(expenses)
 print(f"Maximum expense={max_exp}")

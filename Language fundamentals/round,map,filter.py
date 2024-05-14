@@ -1,5 +1,5 @@
-num=123.456789
-print(round(num,2))
+# num=123.456789
+# print(round(num,2))
 
 
 # ----map()

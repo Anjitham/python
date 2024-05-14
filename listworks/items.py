@@ -1,10 +1,10 @@
 items=["bat","ball","stumps","helmet","arc","cricketball"]
 
-long_word=max(items,key=lambda w:len(w))
-print(f"longest word={long_word}")
+# long_word=max(items,key=lambda w:len(w))
+# print(f"longest word={long_word}")
 
-short_word=min(items,key=lambda w:len(w))
-print(f"shortest word={short_word}")
+# short_word=min(items,key=lambda w:len(w))
+# print(f"shortest word={short_word}")
 
 
 # sum=0

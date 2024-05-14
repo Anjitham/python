@@ -69,3 +69,10 @@ same method name diff parameters
 -------Abstraction-------
 abstract class contain abstract methods
 and its definitions should be provided by the inherited class
+
+
+
+
+doubt
+list
+common num

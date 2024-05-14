@@ -10,6 +10,8 @@ for ch in text:
         chara_count[ch]=1
 
 print(chara_count)
+max_rec=max(chara_count,key=lambda k:chara_count.get(k))
+print("most recurring ==",max_rec)
 
 
 

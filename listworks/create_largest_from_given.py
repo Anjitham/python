@@ -14,9 +14,6 @@ while(i<len(str_arr)):
 print(res)
 
 
-
-
-
 # while(i<len(arr)):
     
 #     cur_max=max(arr)

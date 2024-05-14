@@ -2,7 +2,7 @@ source_word="myself"
 target_word="self"
 
 src_word_list=[ch for ch  in source_word]
-print(src_word_list)
+# print(src_word_list)
 trgt_word_list=[ch for ch in target_word]
 
 for ch in trgt_word_list:

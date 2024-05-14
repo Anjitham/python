@@ -8,6 +8,7 @@ pattern="a{2,4}" # min 2 a's and max 4 a's
 
 
 matcher=finditer(pattern,text)
+
 count=0
 for m in matcher:
     print(m.start(),m.group())

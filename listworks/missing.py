@@ -9,7 +9,7 @@ while(i<len(arr)-1):
     jth_elmnt=arr[j]
     diff=jth_elmnt-ith_elmnt
     if diff!=1:
-        print(f"{ith_elmnt+1}is the missing element")
+        print(f"{ith_elmnt+1} is the missing element")
         break
         i=j
     i+=1
