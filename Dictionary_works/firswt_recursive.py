@@ -1,9 +1,12 @@
 text="ABCABBDE"
 
 cc={}
+dup_chara=[]
 for ch in text:
     if ch in cc:
         print("first recursive chara is",cc)
+        dup_chara.append(ch)
+        print(dup_chara[0])
         break
     else:
         cc[ch]=1
@@ -20,7 +23,7 @@ for ch in text:
 
 # for k,v in cc.items():
 #     if(v==1):
-#         print(k)
+#         print(k,end=" ")
    
 # second recursive character
 # cc={}

@@ -1,12 +1,12 @@
-# arr=[3,4,5,2,6]
-# sum=int(input("enter a value for sum:"))
-# arr.sort()
-# for i in range(0,len(arr)-1):
-#     for j in range(i+1,len(arr)):
-#         cur_sum=arr[i]+arr[j]
-#         if sum==cur_sum:
-#             print(arr[i],arr[j])
-#             break
+arr=[3,4,5,2,6]
+sum=int(input("enter a value for sum:"))
+arr.sort()
+for i in range(0,len(arr)-1):
+    for j in range(i+1,len(arr)):
+        cur_sum=arr[i]+arr[j]
+        if sum==cur_sum:
+            print(arr[i],arr[j])
+            break
 
 
 

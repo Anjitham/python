@@ -7,7 +7,7 @@ class Parent:
         print("Audi")
 
 class Child(Parent):
-    # pass
+    
     def mobile(self):
         print("i Phone 15")
 

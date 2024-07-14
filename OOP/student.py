@@ -25,5 +25,5 @@ stu2.set_student(2,"bini","EC")
 stu1.display_student()
 stu2.display_student()
 
-print(stu1)
+print("my name is {}".format(stu1.name))
 

@@ -1,6 +1,6 @@
 
 
-#Single level inheritance
+# Single level inheritance
 # class Parent:
 #     def mobile(self):
 #         print("Redmi note 12")
@@ -17,11 +17,11 @@
 
 # class Parent1:
 #     def m1(self):
-#         print("inside parent m1 method")
+#         print("inside parent1 m1 method")
 
 # class Parent2(Parent1):
 #     def m2(self):
-#         print("inside parent 2 m2 method")
+#         print("inside parent2 m2 method")
 
 # class Child(Parent2):
 #     def c(self):
@@ -49,7 +49,7 @@
 # ch.m1()
 # ch.m2()
 
-## multiple level inheritance---order of inheritance
+# multiple level inheritance---order of inheritance
 class P1:
     def m1(self):
         print("Inside P1")

@@ -16,5 +16,5 @@ def sub(n1,n2):
 def div(n1,n2):
     return n1/n2
 
-print(sub(2,10))
+print(sub(12,10))
 print(div(2,10))

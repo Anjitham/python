@@ -1,6 +1,7 @@
 employee={"id":1000,"name":"hari","department":"developer"}
 
 # employee.update({"department":"senior developer"})
+# employee["department"]="senior"
 # print(employee)
 
 # print("salary" in employee)
@@ -14,5 +15,5 @@ employee={"id":1000,"name":"hari","department":"developer"}
 # print(employee)
 
 
-print(employee.pop("id"))
-print(employee)
+# print(employee.pop("id"))
+# print(employee)

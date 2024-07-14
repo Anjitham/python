@@ -6,7 +6,7 @@ def check_all_in_alpha(sentence, alphabet):
             return False
     return True
 
-# Example usage
+
 sentence = "The quick brown fox jumps over the lazy dog"
 alphabet = "abcdefghijklmnopqrstuvwxyz"
 result = check_all_in_alpha(sentence, alphabet)

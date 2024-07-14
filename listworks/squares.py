@@ -31,9 +31,9 @@ lst=[2,4,5,6,7,8,9]
 # odd=[num for num in lst if num%2!=0]
 # print(odd)
 
-c4=["apple","orange","mango","milk","pomegranete"]
-upper_names=[name.upper() for name in c4 ]
-print(upper_names)
+# c4=["apple","orange","mango","milk","pomegranete"]
+# upper_names=[name.upper() for name in c4 ]
+# print(upper_names)
 # name_gt_5=[name for name in c4 if len(name)>=5]
 # print(name_gt_5)
 
@@ -49,6 +49,6 @@ print(upper_names)
 # cons_elmnt=[word for word in lst if word[0] not in vowel]
 # print(cons_elmnt)
 
-# nums=[12,67,5,8]
-# str_nums=[str(n) for n in nums]
-# print(str_nums)
+nums=[12,67,5,8]
+str_nums=[str(n) for n in nums]
+print(str_nums)

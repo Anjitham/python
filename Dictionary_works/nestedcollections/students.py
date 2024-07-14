@@ -11,32 +11,34 @@ students=[
 ]
 
 
-# 1) total number of students
-print("Total number of students:",len(students))
+# # 1) total number of students
+# print("Total number of students:",len(students))
 
-# 2) print name of all students
+# # 2) print name of all students
 
-all_student_names=[stud.get("name") for stud in students]
-print("name of students:",all_student_names)
+# all_student_names=[stud.get("name") for stud in students]
+# print("name of students:",all_student_names)
 
-# 3)print student name whose exp>1
+# # 3)print student name whose exp>1
 
-student_name_expgt1=[stud.get("name") for stud in students if stud.get("exp")>1]
-print("The name of students",student_name_expgt1)
+# student_name_expgt1=[stud.get("name") for stud in students if stud.get("exp")>1]
+# print("The name of students",student_name_expgt1)
 
-# 4) print student name whose skills contain both java python
-java_py_names=[stud.get("name") for stud in students if "java" in stud.get("skills") and "python" in stud.get("skills")] 
-print(java_py_names)
+# # 4) print student name whose skills contain both java python
+# java_py_names=[stud.get("name") for stud in students if "java" in stud.get("skills") and "python" in stud.get("skills")] 
+# print(java_py_names)
 
-# 5) print mca students names
-mca_stud_names=[stud.get("name") for stud in students if stud.get("qualification")=="mca"]
-print(mca_stud_names)
+# # 5) print mca students names
+# mca_stud_names=[stud.get("name") for stud in students if stud.get("qualification")=="mca"]
+# print(mca_stud_names)
 
 #  6) most experienced student
-most_exp=max(students,key=lambda d:d.get("exp"))
-high_exp=most_exp.get("exp")
-most_exp_stud=[stud.get("name") for stud in students if stud.get("exp")==high_exp]
-print(most_exp_stud)
+# most_exp=max(students,key=lambda d:d.get("exp"))
+# print(most_exp)
+# high_exp=most_exp.get("exp")
+# print(high_exp)
+# most_exp_stud=[stud.get("name") for stud in students if stud.get("exp")==high_exp]
+# print(most_exp_stud)
 
 # 7)print students name having skills>2
 

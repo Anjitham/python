@@ -15,6 +15,7 @@ class User:
 class Student(User):
     rollno:str
     course:str
+    
 
     def __init__(self, name, age, gender,rollno,course):
         super().__init__(name, age, gender)
@@ -39,5 +40,5 @@ class Faculty(User):
     
 
 stud=Student("Anu",23,"F",1,"CSE")
-print(stud)
+print(stud.age)
 
