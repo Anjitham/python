@@ -19,4 +19,4 @@ class Book:
 
 obj=Book("The kite runner","Khaled Hosseini",700,500)
 obj.display_book()
-print(obj)
+# print(obj)

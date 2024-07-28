@@ -9,7 +9,7 @@ name="TLUMINAR"
 
 # ------Negative indexing
 # print(name[-1:-4:-1])
-# print(name[:-5:-1]) #BALO RANI
+print(name[:-5:-1]) #BALO RANI
 
 # rev=name[::-1]
 # print(rev)
@@ -22,9 +22,9 @@ name="TLUMINAR"
 
 # # slicing @ particular length
 
-str1="Haii"
-str2="Goodmorning"
+# str1="Haii"
+# str2="Goodmorning"
 
-length=len(str1)
-rem=str2[length:]
-print(rem)
+# length=len(str1)
+# rem=str2[length:]
+# print(rem)

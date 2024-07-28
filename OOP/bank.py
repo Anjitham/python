@@ -1,10 +1,10 @@
 class Bank:
-    ac_num:int
-    name:str
-    ac_type:str
-    ifsc_code:int
-    branch:str
-    balance:int
+    # ac_num:int
+    # name:str
+    # ac_type:str
+    # ifsc_code:int
+    # branch:str
+    # balance:int
 
     def create_ac(self,ac_num,name,ac_type,ifsc_code,branch,balance):
         self.ac_num=ac_num

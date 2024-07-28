@@ -1,16 +1,16 @@
-# lst1=["a","b","c"]
-# lst2=["d","e","f","g","h"]
-# new=" "
+lst1=["a","b","c"]
+lst2=["d","e","f","g","h"]
+new=" "
 
-# for i in range(len(lst1)):
-#     ith=lst1[i]
-#     jth=lst2[i]
+for i in range(len(lst1)):
+    ith=lst1[i]
+    jth=lst2[i]
     
-#     new+=ith+jth
-# for k in range(len(lst1),len(lst2)):
-#     kth=lst2[k]
-#     new+=kth
-# print(new)
+    new+=ith+jth
+for k in range(len(lst1),len(lst2)):
+    kth=lst2[k]
+    new+=kth
+print(new)
 
 
 # str1="ABC"
